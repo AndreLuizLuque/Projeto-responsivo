@@ -43,5 +43,7 @@
       .buttons {
         margin-top: 3rem;
       }
+      animation: fadeInUp;
+      animation-duration: 2s;
     }
   }

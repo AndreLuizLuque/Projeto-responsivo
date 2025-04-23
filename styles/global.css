@@ -38,6 +38,9 @@
   --py-xl: 3rem;
 
   --px-lg: 1.5rem;
+
+  --animate-duration: 800ms;
+  --animate-delay: 0.9s;
 }
 
 html {
@@ -46,10 +49,18 @@ html {
   font-size: var(--fs-base);
   line-height: 1.6;
   color: var(--text-color-primary);
+
+  overflow-x: hidden;
+
+  scroll-behavior: smooth;
+
+  
+
 }
 
 body {
   background-color: var(--bg-color);
+  
 }
 
 h1,
